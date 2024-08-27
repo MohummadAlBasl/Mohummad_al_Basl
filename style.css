@@ -41,7 +41,7 @@ body {
 .navbar-nav .nav-link.btn-home:hover {
     background-color: #0056b3; /* اللون عند التحويم */
     color: white; /* لون النص عند التحويم */
-    border-color: #353636; /* نفس اللون للحدود عند التحويم */
+    border-color: #ffffff; /* نفس اللون للحدود عند التحويم */
 }
 
 .btn-light {
