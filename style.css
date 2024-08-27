@@ -56,7 +56,7 @@ body {
 }
 
 .btn-light:hover {
-    background-color: #0056b3; /* اللون عند التحويم */
+    background-color: #0358b3; /* اللون عند التحويم */
     color: white; /* لون النص عند التحويم */
     border-color: #ffffff; /* نفس اللون للحدود عند التحويم */
 }
