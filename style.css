@@ -1,0 +1,164 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* لون خلفية الصفحة */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #004aad; /* لون الخلفية للنافيجاشن بار */
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar-nav .nav-link, .navbar-brand, .btn {
+    color: white;
+    margin: 0 10px; /* تقليل المسافة بين العناصر */
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover, .btn-home:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.navbar-nav .nav-link.btn-home {
+    background-color: #004aad; /* اللون الأساسي للزر */
+    border: 1px solid #004aad; /* نفس اللون للحدود */
+    border-radius: 5px; /* نفس تنسيق الزوايا */
+    padding: 5px 10px; /* نفس التباعد */
+}
+
+.navbar-nav .nav-link.btn-home:hover {
+    background-color: #0056b3; /* اللون عند التحويم */
+    color: white; /* لون النص عند التحويم */
+    border-color: #353636; /* نفس اللون للحدود عند التحويم */
+}
+
+.btn-light {
+    color: white;
+    background-color: #ffffff; /* اللون الأساسي للزر */
+    border: 1px solid #004aad; /* نفس اللون للحدود */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* إضافة تأثير الانتقال */
+}
+
+.btn-light:hover {
+    background-color: #0056b3; /* اللون عند التحويم */
+    color: white; /* لون النص عند التحويم */
+    border-color: #ffffff; /* نفس اللون للحدود عند التحويم */
+}
+
+
+
+.carousel {
+    margin-top: 56px; /* تقليل المسافة بعد الهيدر */
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.card-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hover img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-hover .card-body {
+    padding-top: 10px;
+}
+
+.card-hover h5 {
+    margin-top: 10px;
+}
+
+.card-hover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover .overlay {
+    opacity: 1;
+}
+
+.card {
+    cursor: pointer;
+    height: 350px;
+    overflow: hidden;
+    background-color: #ffffff; /* لون خلفية البطاقة */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+footer {
+    background-color: #00307f; /* لون الخلفية الداكن للفوتر */
+    color: white; /* لون النص */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #16c1f5; /* لون الروابط */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* إضافة خط تحت الروابط عند التحويم */
+}
